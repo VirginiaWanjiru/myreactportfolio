@@ -1,7 +1,7 @@
 # ReactPortfolio
 This repository contains my portfolio implemented  in React. Faced some challenges hence I had to redo the project. Here is a link to the previous repository: https://github.com/VirginiaWanjiru/ReactPortfolio
 
-Here is the link to the current portfolio in react hosted on github pages: 
+Here is the link to the current portfolio in react hosted on github pages: https://virginiawanjiru.github.io/myreactportfolio/
 
 Here is the link to the portfolio done in HTML,CSS and JS : https://virginiawanjiru.github.io/PersonalPortfolio-DigitalExplorers/
 
