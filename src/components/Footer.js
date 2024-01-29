@@ -1,4 +1,7 @@
 import React from 'react';
+import linkedinIcon from '../images/linkedin.svg';
+import github from '../images/github.svg';
+import gmail from '../images/gmail.svg';
 
 
 function ContactInfo() {
@@ -9,15 +12,15 @@ function ContactInfo() {
       <div className="contact-list">
         
         <a href="https://www.linkedin.com/in/virginia-wanjiru-0852641b0/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-          <img src="./images/linkedin.svg" alt="LinkedIn Icon" style={{ width: '30px', height: '50px' }} />
+          <img src={linkedinIcon} alt="LinkedIn Icon" style={{ width: '30px', height: '50px' }} />
         </a>
 
         <a href="https://github.com/VirginiaWanjiru" target="_blank" rel="noopener noreferrer" title="GitHub">
-          <img src="./images/github.svg" alt="GitHub Icon" style={{ width: '30px', height: '50px' }} />
+          <img src={github} alt="GitHub Icon" style={{ width: '30px', height: '50px' }} />
         </a>
         
         <div>
-          <img src="./images/gmail.svg" alt="Gmail Icon" style={{ width: '30px', height: '50px' }} />
+          <img src={gmail} alt="Gmail Icon" style={{ width: '30px', height: '50px' }} />
           <h3>virginiachristine55@gmail.com</h3>
         </div>
       </div>
