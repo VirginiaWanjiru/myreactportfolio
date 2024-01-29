@@ -84,9 +84,9 @@ let NewPromise = new Promise((resolve, reject) => {
 
 
 NewPromise.then((data) => {
-  console.log('Promise resolved:', data);
-}).catch((error) => {
-  console.log('Promise rejected:', error);
+console.log('Promise resolved:', data);})
+.catch((error) => {
+console.log('Promise rejected:', error);
 });
 
 
